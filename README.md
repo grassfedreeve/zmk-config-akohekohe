@@ -4,4 +4,4 @@ Example ZMK config for the ['akohekohe](https://github.com/grassfedreeve/akoheko
 
 # Keymap
 Example keymap for how you might use this many keys:
-![keymap](https://raw.githubusercontent.com/grassfedreeve/akohekohe/main/img/example_keymap.svg?token=GHSAT0AAAAAACTVYPRXH7SLK7HHQCHEVM7YZU263RQ)
+![keymap](https://raw.githubusercontent.com/grassfedreeve/akohekohe/main/img/example_keymap.svg?)
