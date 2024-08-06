@@ -14,8 +14,4 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: "'akohekohe"
-    include:
-     shield: rgbled_adapter
-  - board: seeeduino_xiao_rp2040
-    shield: "'akohekohe"
+    shield: akohekohe rgbled_adapter
