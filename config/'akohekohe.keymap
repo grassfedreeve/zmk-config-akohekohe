@@ -176,6 +176,21 @@
             bindings = <&sk RIGHT_SHIFT>;
             key-positions = <15 16>;
         };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <0 2>;
+        };
+
+        delword {
+            bindings = <&kp LC(BACKSPACE)>;
+            key-positions = <7 5>;
+        };
+
+        caps {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <0 7>;
+        };
     };
 
     behaviors {
