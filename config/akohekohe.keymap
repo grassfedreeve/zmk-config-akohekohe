@@ -176,6 +176,21 @@
             bindings = <&sk RIGHT_SHIFT>;
             key-positions = <15 16>;
         };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 2>;
+        };
+
+        delword {
+            bindings = <&kp LC(BACKSPACE)>;
+            key-positions = <5 7>;
+        };
+
+        caps {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <7 0>;
+        };
     };
 
     behaviors {
@@ -247,8 +262,8 @@
 
         nav {
             bindings = <
-           &kp LA(F4)     &kp LG(LEFT)     &kp LG(RIGHT)             &kp LC(W)  &kp BACKSPACE                    &kp PRINTSCREEN                          &kp UP    &kp DELETE
-&kp LC(Z)  &kp LC(LS(T))  &kp LS(LC(TAB))  &kp LC(TAB)               &kp LC(A)  &kp ENTER                        &kp LEFT                                 &kp DOWN  &kp RIGHT   &kp HOME
+           &kp LA(F4)     &kp LG(LEFT)     &kp LG(RIGHT)             &kp LC(W)  &kp PAGE_UP                      &kp PRINTSCREEN                          &kp UP    &kp HOME
+&kp LC(Z)  &kp LC(LS(T))  &kp LS(LC(TAB))  &kp LC(TAB)               &kp LC(A)  &kp PAGE_DOWN                    &kp LEFT                                 &kp DOWN  &kp RIGHT  &kp END
            &kp LC(X)      &kp LC(C)        &mt LS(LC(V)) LS(INSERT)                            &kp LC(LS(LEFT))  &kp LS(LC(RIGHT))  &kp LS(LC(UP_ARROW))
                                                                      &trans                                                                               &mo 2
             >;
@@ -267,7 +282,7 @@
             bindings = <
          &kp ESC  &kp F2  &kp F3  &kp F10  &bt BT_SEL 0             &bt BT_SEL 1              &bt BT_SEL 2  &bt BT_SEL 3
 &kp F12  &kp F4   &kp F5  &kp F6  &kp F11  &out OUT_TOG             &kp C_PP                  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE
-         &kp F7   &kp F8  &kp F9                         &soft_off  &sys_reset   &bt BT_CLR
+         &kp F7   &kp F8  &kp F9                         &bootloader  &soft_off   &bt BT_CLR
                                   &trans                                                      &trans
             >;
         };
