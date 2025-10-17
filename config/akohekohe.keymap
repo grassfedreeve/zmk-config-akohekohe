@@ -251,7 +251,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        aptmak {
+        finch {
             bindings = <
                   &kp L               &kp Y           &kp W           &kp M        &kp P         &kp F                     &kp O            &comsem
 &hl LEFT_SHIFT C  &hl LEFT_CONTROL R  &hl LEFT_ALT S  &hl LEFT_GUI T  &kp K        &kp B         &hr RIGHT_GUI N           &hr RIGHT_ALT A  &hr RIGHT_CONTROL I  &hr RIGHT_SHIFT U
